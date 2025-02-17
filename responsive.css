@@ -1,0 +1,106 @@
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+    .navLinkBox{
+        display: none;
+    }
+
+    .logoBox img{
+        padding-left: 3rem;
+    }
+
+    .heroBlock{
+        /* background-color: #945d8b; */
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .heroBox{
+        /* background-color: #d2691e; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .heroBox h1{
+        /* background-color: #9a9031; */
+        padding: 4.5rem 3rem;
+        text-wrap: nowrap;
+        font-size: 5.78rem;
+        text-align: center;
+    }
+
+    .expHeadingBox h2{
+        /* background-color: #d2de87; */
+        font-size: 2.89rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .headingBox h2{
+        /* background-color: #d2de87; */
+        word-break: break-all;
+        text-wrap: balance;
+        font-size: 2.2rem;
+        margin-bottom: 3rem;
+    }
+    .align{
+        padding: 3rem;
+    }
+
+    .footerButtonBlock{
+        /* background-color: #5a47db; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 3rem;
+    }
+    
+    .copyRightsBody{
+        /* background-color: #bb5dbb; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {
+    .navLinkBox{
+        display: none;
+    }
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {
+    /* write code here */
+}

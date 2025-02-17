@@ -20,7 +20,7 @@
 
 /* step3: componentContainer */
 .navBarContainer{
-    /* background: #292040; */
+    /* background-color: #ececec; */
     position: sticky;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@
 
 /* step7: contentContainer */
 .logoBox img{
-    padding-left: 6.5rem;
+    padding-left: 7.3rem;
     height: 6rem;
 }
 
@@ -134,11 +134,11 @@
 
 .heroBox h1{
     /* background-color: #9a9031; */
-    padding-left: 7rem;
+    padding-left: 11rem;
     text-align: start;
     font-size: 14.1rem;
     font-weight: 300;
-    /* line-height: 1.17; */
+    line-height: 1.31;
     font-family: var(--ffPrimary);
     color: var(--darkColor);
     /* margin-bottom: 2rem; */
@@ -148,7 +148,7 @@
 
 /* step2: component */
 .aboutSection{
-    /* background-color: #5dd0d0; */
+    background-color: #000000;
 }
 
 /* step3: componentContainer */
@@ -175,4 +175,384 @@
 /* step7: contentContainer */
 .aboutBox img{
     /* background-color: #a86e47; */
+}
+
+/* expertise */
+
+
+/* step2: component */
+.expertiseSection{
+    background-color: #000000;
+}
+
+/* step3: componentContainer */
+.expertiseContainer{
+    /* background-color: #5f5fdd; */
+}
+
+/* step4: row 1 */
+.expHeadingBody{
+    /* background-color: #9d70c8; */
+    
+}
+
+/* step5: column1 */
+.expHeadingBlock{
+    /* background-color: #ad6161; */
+}
+
+/* step6: subColumn 2 */
+.expHeadingBox{
+    /* background-color: #deb887; */
+}
+
+/* step7: contentContainer */
+.expHeadingBox h2{
+    /* background-color: #d2de87; */
+    font-size: 4.19rem;
+    color: var(--primaryColor);
+    font-family: var(--ffSecondary);
+    margin-bottom: 13rem;
+}
+
+/* step4: row 2 */
+.expertiseBody{
+    /* background-color: #b36969; */
+    margin-bottom: 6rem;
+}
+
+/* step5: column */
+.expertiseBlock{
+    /* background-color: #c7c770; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn 1*/
+.expertiseBox{
+    /* background-color: #ff6347; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* step6: subColumn 2*/
+.expertiseBox details{
+    /* background-color: #a66256; */
+    border-bottom: 2px solid var(--secondaryColor);
+    width: 100%;
+}
+
+/* step7: contentContainer */
+.expertiseBox summary{
+    /* background-color: #846237; */
+    font-size: 2.2rem;
+    color: var(--primaryColor);
+    font-family: var(--ffSecondary);
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.expertiseBox summary:hover{
+    background-color: var(--secondaryColor);
+    color: var(--darkColor);
+}
+
+.expertiseDetailsBody{
+    /* background-color: #6a1e6a; */
+    column-gap: 5rem;
+    padding: 3rem 1rem;
+}
+
+.expertisePara{
+    /* background-color: #378441; */
+    width: 70%;
+    padding-right: 8rem;
+    text-wrap: wrap;
+}
+
+.expertisePara p{
+    /* background-color: #bd93d2; */
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+    font-family: var(--ffSecondary);
+    margin-bottom: 2rem;
+}
+
+/* step6: subColumn 3*/
+.expertiseImg{
+    /* background-color: #008080; */
+}
+
+.expertiseImg img{
+    /* color: #bca18d; */
+    height: 5em;
+    transform:rotate(-45deg);
+    margin-bottom: 3rem;
+}
+
+
+/* projects */
+
+
+/* step2: component */
+.projectsSection{
+    background-color: #000000;
+}
+
+/* step3: componentContainer */
+.projectsContainer{
+    /* background-color: #5f5fdd; */
+}
+
+/* step4: row 1 */
+.headingBody{
+    /* background-color: #9d70c8; */
+    column-gap: 4rem;
+}
+
+/* step5: column1 */
+.headingBlock{
+    /* background-color: #ad6161; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn 2 */
+.headingBox{
+    /* background-color: #deb887; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* step7: contentContainer */
+.headingBox h2{
+    /* background-color: #d2de87; */
+    font-size: 3.6rem;
+    color: var(--primaryColor);
+    font-family: var(--ffSecondary);
+    margin-bottom: 3rem;
+}
+
+/* step5: column2 */
+.subHeadingBlock{
+    /* background-color: #414190; */
+}
+
+/* step6: subColumn 2 */
+.subHeadingBox{
+    /* background-color: #deb887; */
+    width: 80%;
+}
+
+/* step7: contentContainer */
+.subHeadingBlock p{
+    /* background-color: #414190; */
+    font-size: 1.6rem;
+    color: var(--primaryColor);
+    font-family: var(--ffSecondary);text-align: start;
+    text-wrap: wrap;
+    line-height: 2;
+}
+
+/* step4: row 2 */
+.projectsBody{
+    /* background-color: #b36969; */
+    gap: 4rem;
+}
+
+/* step5: column */
+.projectsBlock{
+    /* background-color: #c7c770; */
+}
+
+/* step6: subColumn 1*/
+.projectsCard{
+    /* background-color: #ff6347; */
+}
+
+/* step6: subColumn 2*/
+.projectsCardHead{
+    /* background-color: #a66256; */
+}
+
+/* step7: contentContainer */
+.projectsCardHead img{
+    /* background-color: #846237; */
+    margin-bottom: 2rem;
+}
+
+.projectsCardHead img:hover{
+    /* background-color: #846237; */
+    scale: 1.05;
+    transition: 0.3s ease;
+}
+
+.projectsCardBody{
+    /* background-color: #bd93d2; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn 3*/
+.projectsCardBody a{
+    /* background-color: #008080; */
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--primaryColor);
+    font-family: var(--ffSecondary);
+}
+
+.projectsCardBody a:hover{
+    color: #bca18d;
+}
+
+
+/* step2: component */
+.footerSection{
+    background-color: var(--lightColor);
+}
+
+/* step3: componentContainer */
+.footerContainer{
+    /* background-color: #9aacac; */
+    padding: 3rem 2rem;
+}
+
+/* step4: row */
+.footerBody{
+    /* background-color: #a870a1; */
+    
+}
+
+/* step5: column1 */
+.footerBlock{
+    /* background-color: #624151; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* step6: subColumn1 */
+.footerBox{
+    /* background-color: #56af7f; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom: 4rem;
+}
+
+.footerLogo{
+    /* background-color: #3a816e; */
+}
+
+/* step7: contentContainer */
+.footerLogo img {
+    /* background-color: #a38e81; */
+    height: 9rem;
+    /* padding-left: 4rem; */
+}
+
+.footerHeading{
+    /* background-color: #2c5372; */
+}
+
+/* step7: contentContainer */
+.footerHeading h2{
+    /* background-color: #443970; */
+    font-family: var(--ffSecondary);
+    font-size: 4.82rem;
+    font-weight: 700;
+    color: var(--primaryColor);
+    line-height: 1.3;
+    padding-left: 1.5rem;
+    
+}
+
+.footerButtonBlock{
+    /* background-color: #5a47db; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footerButtonBox{
+    /* background-color: #bb5dbb; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerButtonBox button{
+    background-color: var(--secondaryColor);
+    border-radius: 50px;
+    border: none;
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--darkColor);
+    padding: 1rem 3rem;
+}
+
+.footerButtonBox button:hover{
+    background-color: var(--darkColor);
+    color: var(--primaryColor);
+}
+hr{
+    border: 1px solid var(--secondaryColor);
+}
+.copyRightsBody{
+    /* background-color: #bb5dbb; */
+    padding: 4rem 0rem;
+}
+
+.copyRightsBlock{
+    /* background-color: #84483e; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.copyRightsBox{
+    /* background-color: #a921a9; */
+}
+
+.copyRightsBox p{
+    /* background-color: #bb5dbb; */
+    /* margin-bottom: 1rem; */
+    font-size: 1.4rem;
+    color: var(--primaryColor);
+    font-family: var(--ffSecondary);
+}
+
+.copyRightsIconBlock{
+    /* background-color: #379ea1; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.copyRightsIconBox{
+    /* background-color: #ab3f2c; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.copyRightsIconBox i{
+    /* background-color: #ab3f2c; */
+    font-size: 2rem;
+    color: var(--primaryColor);
+    padding-right: 2rem;
 }

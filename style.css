@@ -17,6 +17,7 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    /* overflow-wrap: anywhere; */
 }
 
 body {
@@ -33,11 +34,24 @@ body {
     font-optical-sizing: auto;
 }
 
-
-
 ::-webkit-scrollbar {
-    width: 1rem;
+    width: 1.7rem;
+    height: 1rem;
 }
+
+::-webkit-scrollbar-track{
+    background-color: #424242;
+    border: 1px solid #626060;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #7b7b7b;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #aba8a8;
+}
+
 
 h1,
 h2,
