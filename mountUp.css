@@ -1,0 +1,178 @@
+
+/* ::::CSS Sequence (7 steps):::: */
+
+/* step1: parentContainer */
+/* step2: component */
+/* step3: componentContainer */
+/* step4: row */
+/* step5: column */
+/* step6: subColumn */
+/* step7: contentContainer */
+
+
+/* navBar */
+
+/* step2: component */
+.navBarSection{
+    background-color: #FBFBFB;
+    /* position: relative; */
+}
+
+/* step3: componentContainer */
+.navBarContainer{
+    /* background: #292040; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* step4: row */
+.navBody{
+    /* background-color: #73b818; */
+    padding: 0.5rem 1rem;
+    /* box-shadow: 0px 0px 5px 2px #929090; */
+}
+
+/* step5: column1 */
+.logoBlock{
+    /* background-color: #9a9abc; */
+}
+
+/* step6: subColumn1 */
+.logoBox{
+    /* background-color: #dc143c; */
+    width: 100%;
+    align-items: flex-start;
+}
+
+/* step7: contentContainer */
+.logoBox img{
+    padding-left: 6.5rem;
+    height: 6rem;
+}
+
+/* step5: column2 */
+.navLinkBlock{
+    /* background-color: #709e6e; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* step6: subColumn2 */
+.navLinkBox{
+    /* background-color: #7b6453; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 1rem;
+    /* width: 100%; */
+}
+
+/* step7: contentContainer */
+.navLinkBox li{
+    /* background-color: blueviolet; */
+    list-style: none;
+    padding-left: 3rem;
+}
+
+.navLinkBox a{
+    /* background-color: #ffff00; */
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: var(--ffSecondary);
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--darkColor);
+}
+
+.navLinkBox a:hover{
+    text-decoration: underline;
+}
+
+.navItem{
+    /* color: var(--tertiaryColor); */
+    text-decoration: underline;
+}
+
+
+/* hero */
+
+.heroSection{
+    /* background-color: #00ffff; */
+}
+
+.heroContainer{
+    /* background-color: #0000ff; */
+    background-image: url(./assets/images/Mountain\ Lake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+}
+
+.heroBody{
+    /* background-color: #8a2be2; */
+}
+
+.heroBlock{
+    /* background-color: #945d8b; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroBox{
+    /* background-color: #d2691e; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heroBox h1{
+    /* background-color: #9a9031; */
+    padding-left: 7rem;
+    text-align: start;
+    font-size: 14.1rem;
+    font-weight: 300;
+    /* line-height: 1.17; */
+    font-family: var(--ffPrimary);
+    color: var(--darkColor);
+    /* margin-bottom: 2rem; */
+}
+
+/* about */
+
+/* step2: component */
+.aboutSection{
+    /* background-color: #5dd0d0; */
+}
+
+/* step3: componentContainer */
+.aboutContainer{
+    /* background-color: #9aacac; */
+}
+
+/* step4: row */
+.aboutBody{
+    /* background-color: #a870a1; */
+    padding: 0rem;
+}
+
+/* step5: column1 */
+.aboutBlock{
+    /* background-color: #624151; */
+}
+
+/* step6: subColumn1 */
+.aboutBox{
+    /* background-color: #56af7f; */
+}
+
+/* step7: contentContainer */
+.aboutBox img{
+    /* background-color: #a86e47; */
+}

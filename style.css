@@ -1,0 +1,244 @@
+/* Default code Starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eff2f7;
+    /* background-color: #ef0058; */
+    font-family: "Fraunces", serif;
+    font-family: "Wix Madefor Text", serif;
+    /* font-family: "Inter", serif; */
+    /* font-family: "Roboto Condensed", sans-serif; */
+    /* font-family: "DM Serif Display", sans-serif; */
+    line-height: 1.5;
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+    font-optical-sizing: auto;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+:root {
+    --primaryColor: #ffffff;
+    --secondaryColor: #8A6562;
+    --tertiaryColor: #E7E7E7;
+    --darkColor: #000000;
+    --lightColor: #1C1C1C;
+    /* --whiteColor: #ffffff; */
+    --regularFont: 1.6rem;
+    --headingFont: 3rem;
+    --ffPrimary: "Fraunces", serif;
+    --ffSecondary: "Wix Madefor Text", serif;
+    /* --border: 1px solid var(--primaryColor); */
+    /* --borderRadius: 0.5rem; */
+  } 
+
+/* project standard classes Starts */
+
+.componentSpacing {
+    padding: 3rem 0rem;
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem 2rem;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 2rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 2rem;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 0rem 2rem;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* project standard classes Ends */
+
+/* Default code Ends here */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* :::HEADER Code Starts hereE::: */
+/* Navbar code */
+/* Navbar code */
+
+/* Hero Section code */
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+
+/* :::MAIN Code Starts here::: */
+/* Our Menu code */
+/* Our Menu code */
+
+/* Facility code */
+/* Facility code */
+
+/* Popular code */
+/* Popular code */
+
+/* Gallery code */
+/* Gallery code */
+
+/* Team code */
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+/* Contact code */
+
+/* Contact Icons code */
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {
+    /* write code here */
+}
