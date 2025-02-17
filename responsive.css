@@ -21,11 +21,19 @@
         padding-left: 3rem;
     }
 
+    .heroContainer{
+       
+    }
+
     .heroBlock{
         /* background-color: #945d8b; */
         display: flex;
         align-items: center;
         justify-content:center;
+        
+    }
+    .heroBody{
+        /* background-color: #8a2be2; */
     }
 
     .heroBox{
@@ -34,14 +42,16 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
     }
 
     .heroBox h1{
         /* background-color: #9a9031; */
         padding: 4.5rem 3rem;
         text-wrap: nowrap;
-        font-size: 5.78rem;
-        text-align: center;
+        font-size: 4.78rem;
+        text-align: center;  
+        overflow-wrap: break-word; 
     }
 
     .expHeadingBox h2{
@@ -68,6 +78,12 @@
         justify-content: flex-start;
         margin-bottom: 3rem;
     }
+
+    .footerHeading h2{
+        /* background-color: #443970; */
+        font-size: 2.6rem;
+        font-weight: 800;
+    }
     
     .copyRightsBody{
         /* background-color: #bb5dbb; */
@@ -79,8 +95,73 @@
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (min-width: 577px) and (max-width: 768px) */
 @media (width >=577px) and (width <=768px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .align{
+        padding: 2rem;
+    }
     .navLinkBox{
         display: none;
+    }
+
+    .heroBlock{
+        /* background-color: #945d8b; */
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        
+    }
+    .heroBody{
+        /* background-color: #8a2be2; */
+        overflow-wrap: break-word;
+    }
+
+    .heroBox{
+        /* background-color: #d2691e; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .heroBox h1{
+        /* background-color: #9a9031; */
+        padding: 4.5rem 3rem;
+        text-wrap: nowrap;
+        font-size: 7.53rem;
+        text-align: center;   
+    }
+
+    .footerButtonBlock{
+        /* background-color: #5a47db; */
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 3rem;
+    }
+
+    .footerHeading h2{
+        /* background-color: #443970; */
+        font-size: 2.6rem;
+        font-weight: 800;
+    }
+    
+    .copyRightsBody{
+        /* background-color: #bb5dbb; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footerContainer{
+        /* background-color: #9aacac; */
+        padding: 3rem 4.5rem;
     }
 }
 
