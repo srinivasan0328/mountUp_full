@@ -106,7 +106,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 100vh;
     width: 100%;
     padding: 0rem 0rem 10rem;
     overflow-wrap: break-word;
@@ -270,12 +270,17 @@
     /* background-color: #6a1e6a; */
     column-gap: 5rem;
     padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .expertisePara{
     /* background-color: #378441; */
-    width: 70%;
-    padding-right: 8rem;
+    /* text-align: start; */
+    /* margin: auto; */
+    width: 60%;
+    /* padding-right: 8rem; */
     text-wrap: wrap;
 }
 
@@ -290,13 +295,18 @@
 /* step6: subColumn 3*/
 .expertiseImg{
     /* background-color: #008080; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 18rem;
 }
 
 .expertiseImg img{
     /* color: #bca18d; */
-    height: 5em;
-    transform:rotate(-45deg);
+    height: 12rem;
+    transform:rotate(-20deg);
     margin-bottom: 3rem;
+    box-shadow: 2px 0 10px 1px #a1a0a0;
 }
 
 

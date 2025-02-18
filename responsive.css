@@ -13,27 +13,35 @@
     .grid-4 {
         grid-template-columns: 1fr;
     }
+    .navBody{
+        /* background-color: #73b818; */
+        padding: 0rem;
+    }
+    
     .navLinkBox{
         display: none;
     }
 
     .logoBox img{
-        padding-left: 3rem;
+        padding-left: 1rem;
+        height: 5rem;
     }
 
     .heroContainer{
        
     }
 
+    .heroBody{
+        /* background-color: #8a2be2; */
+        /* padding: 2rem; */
+        padding-left: 0.5rem;
+    }
+
     .heroBlock{
         /* background-color: #945d8b; */
         display: flex;
         align-items: center;
-        justify-content:center;
-        
-    }
-    .heroBody{
-        /* background-color: #8a2be2; */
+        justify-content:center;    
     }
 
     .heroBox{
@@ -42,22 +50,35 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
     }
 
     .heroBox h1{
         /* background-color: #9a9031; */
+        padding-left: 0rem;
         padding: 4.5rem 3rem;
-        text-wrap: nowrap;
+        text-wrap: wrap;
         font-size: 4.78rem;
         text-align: center;  
-        overflow-wrap: break-word; 
+        /* overflow-wrap: break-word;  */
+    }
+
+    .expertiseDetailsBody{
+        /* background-color: #6a1e6a; */
+        column-gap: 2rem;
+        /* padding: 3rem 1rem; */
     }
 
     .expHeadingBox h2{
         /* background-color: #d2de87; */
         font-size: 2.89rem;
         margin-bottom: 2.5rem;
+    }
+
+    .expertisePara{
+        /* background-color: #378441; */
+        width: 80%;
+        /* padding-right: 8rem; */
+        text-wrap: nowrap;
     }
 
     .headingBox h2{
@@ -67,6 +88,16 @@
         font-size: 2.2rem;
         margin-bottom: 3rem;
     }
+    .expertiseImg{
+        /* background-color: #008080; */
+        margin-left: 1rem;
+    }
+
+    .expertiseImg img{
+        /* color: #bca18d; */
+        height: 8rem;
+    }
+    
     .align{
         padding: 3rem;
     }
@@ -139,6 +170,16 @@
         text-align: center;   
     }
 
+    .expertiseImg{
+        /* background-color: #008080; */
+        margin-left: 3rem;
+    }
+
+    .expertiseImg img{
+        /* color: #bca18d; */
+        height: 9rem;
+    }
+
     .footerButtonBlock{
         /* background-color: #5a47db; */
         display: flex;
@@ -169,7 +210,15 @@
 /* Large devices (Laptops, upto 992px and above) */
 /* @media (min-width: 769px) and (max-width: 992px) */
 @media (width >=769px) and (width <=992px) {
-    /* write code here */
+    .expertiseImg{
+        /* background-color: #008080; */
+        margin-left: 3rem;
+    }
+
+    .expertiseImg img{
+        /* color: #bca18d; */
+        height: 10rem;
+    }
 }
 
 
